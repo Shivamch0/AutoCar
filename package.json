@@ -1,0 +1,15 @@
+{
+  "name": "autonear-monorepo",
+  "version": "1.0.0",
+  "description": "AutoNear — Real-Time Fog, Edge, Maps, and Distributed Auto Care Platform",
+  "private": true,
+  "scripts": {
+    "test:backend": "cd Backend && npm test",
+    "test:fognode": "cd FogNode && npm test",
+    "test:edgeagent": "cd EdgeAgent && npm test",
+    "test:all": "npm run test:backend && npm run test:fognode && npm run test:edgeagent",
+    "build:frontend": "cd Frontend && npm run build",
+    "seed": "cd Backend && npm run seed"
+  }
+}
+

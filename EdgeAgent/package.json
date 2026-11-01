@@ -1,0 +1,19 @@
+{
+  "name": "autonear-edgeagent",
+  "version": "1.0.0",
+  "description": "AutoNear Garage-Side Edge Computing Agent",
+  "main": "src/agent.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/agent.js",
+    "dev": "node --watch src/agent.js",
+    "test": "node --test tests/*.test.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "morgan": "^1.10.0"
+  }
+}
+
